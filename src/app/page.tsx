@@ -16,7 +16,7 @@ const blobUrl = process.env.NEXT_PUBLIC_BLOB_URL ?? '(미설정)';
           priority
         />
         <div className={styles.intro}>
-         <h3>Next.js 앱서비스 단독 배포 1</h3>
+         <h3>Next.js 앱서비스 단독 배포 -staging</h3>
   <ol>
     <li>API_URL: {apiUrl}</li>
     <li>BLOB_URL: {blobUrl}</li>
