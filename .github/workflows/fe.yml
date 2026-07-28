@@ -64,9 +64,9 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: fe-next-shb
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: release.zip
           # 시작 명령은 Azure Portal > App Service > 구성 > 일반 설정 >
           # 시작 명령에 `node server.js` 로 설정해 둘 것.
           # (startup-command 입력은 publish-profile 인증에서는 동작하지 않음)
-          publish-profile: ${{ secrets.FE_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.FE_STAGING_PROFILE }}
