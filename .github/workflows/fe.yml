@@ -63,7 +63,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: fe-next
+          app-name: fe-next-shb
           slot-name: 'Production'
           package: release.zip
           # 시작 명령은 Azure Portal > App Service > 구성 > 일반 설정 >
